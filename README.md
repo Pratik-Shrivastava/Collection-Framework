@@ -42,4 +42,4 @@ The **Collection Framework** is organized into a hierarchy where the core interf
 
 ---
 
-This is an introduction to the **Java Collection Framework**. More details on individual collections will be covered in upcoming sections. 🚀
+This is an introduction to the **Java Collection Framework**. More details on individual collections will be covered in the theory sections. 🚀
