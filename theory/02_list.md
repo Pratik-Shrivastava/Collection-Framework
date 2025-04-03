@@ -8,11 +8,11 @@ The `List` interface is implemented by several classes in the **Java Collection 
 
 ## 🔑 Key Features of the List Interface
 
-✔ **Order Preservation** – Maintains the order in which elements are inserted.
+✅ **Order Preservation** – Maintains the order in which elements are inserted.
 
-✔ **Index-Based Access** – Elements can be accessed using an index, similar to arrays.
+✅ **Index-Based Access** – Elements can be accessed using an index, similar to arrays.
 
-✔ **Allows Duplicates** – Unlike `Set`, `List` permits duplicate elements.
+✅ **Allows Duplicates** – Unlike `Set`, `List` permits duplicate elements.
 
 ---
 
