@@ -2,7 +2,7 @@
 
 ## 🎯 What is a Collection Framework?
 The **Java Collection Framework** provides a set of interfaces and classes that help in managing groups of objects. 
--Before **JDK 1.2**, Java relied on various classes like `Vector`, `Stack`, `Hashtable`, and `Arrays` to store and manipulate groups of objects. However, these had several drawbacks:
+Before **JDK 1.2**, Java relied on various classes like `Vector`, `Stack`, `Hashtable`, and `Arrays` to store and manipulate groups of objects. However, these had several drawbacks:
 
 ❌ **Inconsistency**: Each class had a different way of managing collections, leading to confusion and a steep learning curve.
 
@@ -24,16 +24,17 @@ To solve these problems, the **Collection Framework** was introduced in **JDK 1.
 ## 🔑 Key Interfaces in the Collection Framework
 The Collection Framework is primarily built around a set of interfaces. The most important ones are:
 
-- 📌 **Collection**: The root interface for all other collection types.
+📌 **Collection**: The root interface for all other collection types.
 
-- 📋 **List**: An ordered collection that can contain duplicate elements *(e.g., `ArrayList`, `LinkedList`)*.
+📋 **List**: An ordered collection that can contain duplicate elements *(e.g., `ArrayList`, `LinkedList`)*.
 
-- 🔳 **Set**: A collection that does not allow duplicate elements *(e.g., `HashSet`, `TreeSet`)*.
-- 🔄 **Queue**: A collection designed for holding elements prior to processing *(e.g., `PriorityQueue`, `LinkedList` when used as a queue)*.
+🔳 **Set**: A collection that does not allow duplicate elements *(e.g., `HashSet`, `TreeSet`)*.
 
-- 🔃 **Deque**: A double-ended queue that allows insertion and removal from both ends *(e.g., `ArrayDeque`)*.
+🔄 **Queue**: A collection designed for holding elements prior to processing *(e.g., `PriorityQueue`, `LinkedList` when used as a queue)*.
 
-- 🔑 **Map**: Represents a collection of key-value pairs *(e.g., `HashMap`, `TreeMap`)*.
+🔃 **Deque**: A double-ended queue that allows insertion and removal from both ends *(e.g., `ArrayDeque`)*.
+
+🔑 **Map**: Represents a collection of key-value pairs *(e.g., `HashMap`, `TreeMap`)*.
 
 ## 📂 Collection Hierarchy
 The **Collection Framework** is organized into a hierarchy where the core interfaces are at the top, and the specific implementations extend these interfaces.
